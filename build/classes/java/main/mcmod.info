@@ -1,0 +1,16 @@
+[
+{
+  "modid": "simpletogglesprintedit",
+  "name": "ty 724 <3",
+  "description": "simply QoL Client",
+  "version": "7.2.4",
+  "mcversion": "1.8.9",
+  "url": "https://github.com/luna724",
+  "updateUrl": "",
+  "authorList": ["luna724", "@NotTomochie"],
+  "credits": "by luna724. baseMod presents by. @NotTomochie",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
