@@ -8,7 +8,7 @@
 
 </center>
 
-- [なんもないけど入って？](https://discord.gg/bVkYkfZyJZ)
+- [なんもないけどなんとなく入ってほしい](https://discord.gg/bVkYkfZyJZ)
   
 | [Download latest](https://discord.gg/bVkYkfZyJZ) | [Download Stable](https://github.com/luna724/724Client/releases) | NOT COMING SOON! |
 | :---: | :---: | :---: |
