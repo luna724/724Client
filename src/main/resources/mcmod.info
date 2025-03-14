@@ -2,13 +2,13 @@
 {
   "modid": "simpletogglesprintedit",
   "name": "ty 724 <3",
-  "description": "simply QoL Client",
+  "description": "simply PvP QoL Client (v0.0.1)",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://github.com/luna724",
   "updateUrl": "",
-  "authorList": ["luna724", "@NotTomochie"],
-  "credits": "by luna724. baseMod presents by. @NotTomochie",
+  "authorList": ["luna724"],
+  "credits": "by luna724. join discord to support me! (bVkYkfZyJZ)",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

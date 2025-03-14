@@ -21,4 +21,9 @@ class InvMove {
     @ConfigOption(name = "afterMove Delay", desc = "Only works in Legit mode\nSelect as Ticks (default = 2)")
     @ConfigEditorSlider(minValue = 0f, maxValue = 15f, minStep = 1f)
     var afterMoveDelay = 2f
+
+    @Expose
+    @ConfigOption(name = "KeepSprint", desc = "KeepSprint while inventory open\n(default = True)")
+    @ConfigEditorBoolean
+    var keepSprint = true
 }

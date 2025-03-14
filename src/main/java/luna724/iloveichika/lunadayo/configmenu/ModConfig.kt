@@ -5,6 +5,7 @@ import io.github.notenoughupdates.moulconfig.Config
 import io.github.notenoughupdates.moulconfig.annotations.Category
 import luna724.iloveichika.lunadayo.Main.Companion.configManager
 import luna724.iloveichika.lunadayo.configmenu.categories.CategoryMovements
+import luna724.iloveichika.lunadayo.configmenu.categories.CategoryRenderer
 
 class ModConfig : Config() {
     override fun getTitle(): String {
@@ -18,4 +19,8 @@ class ModConfig : Config() {
     @Expose
     @Category(name = "Movements", desc = "")
     val movements = CategoryMovements()
+
+    @Expose
+    @Category(name = "Render", desc = "")
+    val render = CategoryRenderer()
 }

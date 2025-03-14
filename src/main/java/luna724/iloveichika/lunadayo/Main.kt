@@ -3,6 +3,7 @@ package luna724.iloveichika.lunadayo
 import luna724.iloveichika.lunadayo.configmenu.ConfigManager
 import luna724.iloveichika.lunadayo.configmenu.ConfigMenuCommand
 import luna724.iloveichika.lunadayo.configmenu.ModConfig
+import luna724.iloveichika.lunadayo.features.PlayerESP
 import luna724.iloveichika.lunadayo.observer.DragStateObserver
 import luna724.iloveichika.lunadayo.utils.DragStateTracker
 import net.minecraft.client.Minecraft
@@ -30,6 +31,7 @@ class Main {
     fun onInit(event: FMLInitializationEvent) {
 
         ClientCommandHandler.instance.registerCommand(ConfigMenuCommand())
+        MinecraftForge.EVENT_BUS.register(PlayerESP())
         MinecraftForge.EVENT_BUS.register(configManager)
         MinecraftForge.EVENT_BUS.register(DragStateObserver())
         MinecraftForge.EVENT_BUS.register(DragStateTracker())

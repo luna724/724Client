@@ -39,6 +39,10 @@ public class DragStateTracker {
         return getConfig().getMovements().getInvMove().getEnabled() && getConfig().getMovements().getInvMove().getMode() == 1;
     }
 
+    public static boolean getKeepSprint() {
+        return getConfig().getMovements().getInvMove().getKeepSprint();
+    }
+
 
     @SubscribeEvent
     public void onClientTick(TickEvent.ClientTickEvent event) {

@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-FMLCorePluginContainsFMLMod: true
-ForceLoadAsMod: true
-MixinConfigs: mixins.724client.json
-TweakClass: gg.essential.loader.stage0.EssentialSetupTweaker
-TweakOrder: 0
-
