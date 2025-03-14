@@ -1,2 +1,3 @@
-# 724Client
- low-quality free Ghost Client for luna724
+## 空っぽのREADME!
+
+[なんもないけど、だからこそ来てほしい](https://discord.gg/bVkYkfZyJZ)
